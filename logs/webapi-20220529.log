@@ -1,0 +1,115 @@
+2022-05-29 14:17:46.199 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-29 14:17:46.559 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-29 14:17:46.585 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 14:17:46.587 +03:00 [INF] Hosting environment: Development
+2022-05-29 14:17:46.587 +03:00 [INF] Content root path: C:\Users\FURKAN\Desktop\MobilivaCaseSolution\WebAPI\
+2022-05-29 14:17:49.252 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-29 14:17:51.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-29 14:17:51.524 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 65.6287ms
+2022-05-29 14:17:51.524 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 2304.7003ms
+2022-05-29 14:17:52.937 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-29 14:17:53.381 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 443.4035ms
+2022-05-29 14:17:59.400 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/send-mail - -
+2022-05-29 14:17:59.417 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-29 14:17:59.462 +03:00 [INF] Route matched with {action = "MailQue", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MailQue() on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-29 14:19:09.492 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-05-29 14:19:09.532 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.MailQue (WebAPI) in 70038.9056ms
+2022-05-29 14:19:09.534 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-29 14:19:09.540 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/send-mail - - - 200 0 - 70140.9908ms
+2022-05-29 14:24:19.407 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-29 14:24:19.484 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-29 14:24:19.495 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 14:24:19.496 +03:00 [INF] Hosting environment: Development
+2022-05-29 14:24:19.496 +03:00 [INF] Content root path: C:\Users\FURKAN\Desktop\MobilivaCaseSolution\WebAPI\
+2022-05-29 14:24:22.979 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-29 14:24:23.998 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 1042.5837ms
+2022-05-29 14:24:24.027 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-29 14:24:24.033 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 6.6507ms
+2022-05-29 14:24:24.966 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-29 14:24:25.188 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 221.2025ms
+2022-05-29 15:01:15.184 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-29 15:01:15.607 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-29 15:01:15.643 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 15:01:15.645 +03:00 [INF] Hosting environment: Development
+2022-05-29 15:01:15.646 +03:00 [INF] Content root path: C:\Users\FURKAN\Desktop\MobilivaCaseSolution\WebAPI\
+2022-05-29 15:01:21.807 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-29 15:01:24.419 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 2657.3036ms
+2022-05-29 15:01:24.473 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-29 15:01:24.613 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 139.8706ms
+2022-05-29 15:01:27.090 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-29 15:01:28.082 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 991.8471ms
+2022-05-29 15:01:35.919 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/send-mail - -
+2022-05-29 15:01:35.952 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-29 15:01:36.082 +03:00 [INF] Route matched with {action = "MailQue", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MailQue() on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-29 15:01:39.075 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-05-29 15:01:39.147 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.MailQue (WebAPI) in 2995.7933ms
+2022-05-29 15:01:39.149 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-29 15:01:39.184 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/send-mail - - - 200 0 - 3266.6200ms
+2022-05-29 15:03:09.294 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-29 15:03:09.345 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-29 15:03:09.350 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 15:03:09.351 +03:00 [INF] Hosting environment: Development
+2022-05-29 15:03:09.351 +03:00 [INF] Content root path: C:\Users\FURKAN\Desktop\MobilivaCaseSolution\WebAPI\
+2022-05-29 15:03:12.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-29 15:03:14.011 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 1874.2789ms
+2022-05-29 15:03:14.088 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-29 15:03:14.102 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 13.8188ms
+2022-05-29 15:03:14.964 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-29 15:03:15.303 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 339.2166ms
+2022-05-29 15:03:30.933 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/send-mail - -
+2022-05-29 15:03:30.983 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-29 15:03:31.100 +03:00 [INF] Route matched with {action = "MailQue", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MailQue() on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-29 15:06:09.357 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-05-29 15:06:09.392 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.MailQue (WebAPI) in 158260.9238ms
+2022-05-29 15:06:09.393 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-29 15:06:09.395 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/send-mail - - - 200 0 - 158463.4823ms
+2022-05-29 15:08:16.001 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-29 15:08:16.082 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-29 15:08:16.091 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 15:08:16.092 +03:00 [INF] Hosting environment: Development
+2022-05-29 15:08:16.092 +03:00 [INF] Content root path: C:\Users\FURKAN\Desktop\MobilivaCaseSolution\WebAPI\
+2022-05-29 15:08:18.340 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-29 15:08:18.925 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 593.3747ms
+2022-05-29 15:08:19.014 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-29 15:08:19.040 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 26.4614ms
+2022-05-29 15:08:19.548 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-29 15:08:19.878 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 329.7736ms
+2022-05-29 15:08:26.943 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/send-mail - -
+2022-05-29 15:08:27.033 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-29 15:08:27.223 +03:00 [INF] Route matched with {action = "MailQue", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MailQue() on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-29 15:22:11.580 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-29 15:22:11.669 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-29 15:22:11.677 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 15:22:11.677 +03:00 [INF] Hosting environment: Development
+2022-05-29 15:22:11.678 +03:00 [INF] Content root path: C:\Users\FURKAN\Desktop\MobilivaCaseSolution\WebAPI\
+2022-05-29 15:22:12.849 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-29 15:22:13.333 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 492.0845ms
+2022-05-29 15:22:13.417 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-29 15:22:13.423 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 6.0438ms
+2022-05-29 15:22:13.984 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-29 15:22:14.178 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 193.7684ms
+2022-05-29 15:22:48.790 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/send-mail - -
+2022-05-29 15:22:48.888 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-29 15:22:48.989 +03:00 [INF] Route matched with {action = "MailQue", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MailQue() on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-29 15:22:53.031 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-05-29 15:22:53.074 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.MailQue (WebAPI) in 4046.6402ms
+2022-05-29 15:22:53.075 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-29 15:22:53.078 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/send-mail - - - 200 0 - 4289.0379ms
+2022-05-29 16:21:59.338 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-29 16:21:59.544 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-29 16:21:59.554 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 16:21:59.555 +03:00 [INF] Hosting environment: Development
+2022-05-29 16:21:59.555 +03:00 [INF] Content root path: C:\Users\FURKAN\Desktop\MobilivaCaseSolution\WebAPI\
+2022-05-29 16:22:02.842 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-29 16:22:06.030 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 3199.7147ms
+2022-05-29 16:22:06.243 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-29 16:22:06.276 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 32.7665ms
+2022-05-29 16:22:07.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-29 16:22:08.515 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1091.1974ms
+2022-05-29 16:22:55.446 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=furkan&CustomerEmail=furkan%40hotmail.com&CustomerGSM=05554443322&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%202%2C%0A%20%20%22amount%22%3A%203%0A%7D - 0
+2022-05-29 16:22:55.492 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-29 16:22:55.658 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-29 16:25:31.987 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2022-05-29 16:25:32.049 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.CreateOrder (WebAPI) in 156343.1159ms
+2022-05-29 16:25:32.053 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-29 16:25:32.057 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7083/create-order?CustomerName=furkan&CustomerEmail=furkan%40hotmail.com&CustomerGSM=05554443322&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%202%2C%0A%20%20%22amount%22%3A%203%0A%7D - 0 - 200 - application/json;+charset=utf-8 156610.2884ms
