@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\Integrations.csproj": {}
+    "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\Integrations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\Integrations.csproj": {
+    "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\Integrations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\Integrations.csproj",
+        "projectUniqueName": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\Integrations.csproj",
         "projectName": "Integrations",
-        "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\Integrations.csproj",
+        "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\Integrations.csproj",
         "packagesPath": "C:\\Users\\FURKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\obj\\",
+        "outputPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FURKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",

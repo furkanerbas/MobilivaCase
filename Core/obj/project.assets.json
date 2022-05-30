@@ -662,11 +662,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\FURKAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Core\\obj\\",
+      "outputPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FURKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",

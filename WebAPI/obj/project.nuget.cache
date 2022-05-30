@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zjC7hbF5vHAqW33q+OE6cy+9hfLSH6a7iQ40SGiIVv3RXP9WW2v/ya2LSlu4E2C+gkz06b8DGCCL4wiEV+S3LA==",
+  "dgSpecHash": "LPsZJ5tYoR9QjONp1GMFL+F9KjFP2YJBm5macQCHKiYpTea9i4r7AlSNRNtgOqebIfCTnfYgW7dEilrLRYLgpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FURKAN\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\FURKAN\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Business\\Business.csproj": {
+    "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\FURKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Business\\obj\\",
+        "outputPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FURKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Entities\\Entities.csproj"
+              "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\Integrations.csproj": {
-                "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\Integrations.csproj"
+              "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\Integrations.csproj": {
+                "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\Integrations.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Core\\Core.csproj": {
+    "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\FURKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Core\\obj\\",
+        "outputPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FURKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\FURKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FURKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,8 +162,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Entities\\Entities.csproj"
+              "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Entities\\Entities.csproj"
               }
             }
           }
@@ -222,14 +222,14 @@
         }
       }
     },
-    "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Entities\\Entities.csproj": {
+    "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\FURKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FURKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -246,8 +246,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Core\\Core.csproj"
+              "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Core\\Core.csproj"
               }
             }
           }
@@ -286,14 +286,14 @@
         }
       }
     },
-    "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\Integrations.csproj": {
+    "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\Integrations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\Integrations.csproj",
+        "projectUniqueName": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\Integrations.csproj",
         "projectName": "Integrations",
-        "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\Integrations.csproj",
+        "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\Integrations.csproj",
         "packagesPath": "C:\\Users\\FURKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\obj\\",
+        "outputPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FURKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -362,14 +362,14 @@
         }
       }
     },
-    "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\FURKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FURKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -386,14 +386,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Business\\Business.csproj"
+              "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Business\\Business.csproj"
               },
-              "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\Integrations.csproj": {
-                "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\Integrations.csproj"
+              "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\Integrations.csproj": {
+                "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\Integrations.csproj"
               }
             }
           }

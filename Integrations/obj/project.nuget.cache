@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/r/M3PuP7GDlXU8TTExZ96u0JDSUzlWRnaWPAgyg8Hg9o7BDbrLVQFi/F7BrOQHkcvKVoU7KMk6DaMwxcG4G1A==",
+  "dgSpecHash": "maaxriKz5vguQ1h+5/azIKjURfq92t7+3qbj3t1HLa5aVlojjtUdJ/HMBABNQ1RCwnKfvWuJ8e/X5HpfiVpU8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Integrations\\Integrations.csproj",
+  "projectFilePath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Integrations\\Integrations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FURKAN\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\FURKAN\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

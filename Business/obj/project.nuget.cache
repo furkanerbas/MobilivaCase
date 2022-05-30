@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qEP3WO3GxqTYz30XFKI6rYab2Zvggvyy32Xw+gRH10YeVOmW1sFmSzyoP4wxY3edje7NUenJwEVtQRkpY1PbEw==",
+  "dgSpecHash": "7aNCZ4sfso6Jwo4KaXa4pG2psT8EysE/+ghBLhhsKswu4wKXNVpf89zHpmyIadWi5eQ5PjueydjfnjMelblMCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FURKAN\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\FURKAN\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

@@ -1961,11 +1961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\FURKAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FURKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1982,8 +1982,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\Entities\\Entities.csproj"
+            "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\Entities\\Entities.csproj"
             }
           }
         }

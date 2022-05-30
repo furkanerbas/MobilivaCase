@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zZxim/NTKInbleR2itRaJbiwkTAYnMJY3XLASED/p5OUEPFgEoLedCC9o2dt14u3QJHrqEQtUFklBZZ92y8kDw==",
+  "dgSpecHash": "wbCZhfckN1U1p1W5HamYBoO3Ti0HLTVWSdFPGbb5zhh+AfhH2qv2k85wSVbLIO9e/CRM6lb06ikBs2QyXA8NBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FURKAN\\Desktop\\MobilivaCaseSolution\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\FURKAN\\Documents\\GitHub\\MobilivaCase\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FURKAN\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\FURKAN\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

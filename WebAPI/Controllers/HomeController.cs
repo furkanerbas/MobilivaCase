@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Entities.Dtos;
+using Integrations.EmailService;
 using Integrations.RabbitMQ;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,13 +11,15 @@ namespace WebAPI.Controllers
         private IProductService _productService;
         private IOrderService _orderService;
         private ILogger<HomeController> _logger;
+        private IEmailSenderService _emailSenderService;
 
         public HomeController(IProductService productService,ILogger<HomeController> logger,
-            IOrderService orderService)
+            IOrderService orderService, IEmailSenderService emailSenderService)
         {
             _logger = logger;
             _productService = productService;
             _orderService = orderService;
+            _emailSenderService = emailSenderService;
         }
         public IActionResult Index()
         {
@@ -41,13 +44,15 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("send-mail")]
-        public IActionResult MailQue()
+        public IActionResult MailQue(EmailMessageModel model)
         {
-            RabbitMQProducer rabbitMQProducer = new RabbitMQProducer();
-            rabbitMQProducer.Send("furkan","furkanerbass@hotmail.com","mesaj");
-            RabbitMQConsumer rabbitMQConsumer = new RabbitMQConsumer();
-            rabbitMQConsumer.Get();
+            _emailSenderService.SendAsync(model);
             return Ok();
+            //RabbitMQProducer rabbitMQProducer = new RabbitMQProducer();
+            //rabbitMQProducer.Send("furkan","furkanerbass@hotmail.com","mesaj");
+            //RabbitMQConsumer rabbitMQConsumer = new RabbitMQConsumer();
+            //rabbitMQConsumer.Get();
+            //return Ok();
         }
 
     }
