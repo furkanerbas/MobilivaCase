@@ -3,6 +3,7 @@ using Business.Concrete;
 using Core.CrossCuttingConcerns.Caching;
 using DataAccess.Abstract;
 using DataAccess.Concrete;
+using Integrations.EmailService;
 using Integrations.RabbitMQ;
 using Serilog;
 
@@ -24,8 +25,9 @@ builder.Services.AddScoped<ICacheManager, CacheManager>();
 builder.Services.AddMemoryCache();
 
 builder.Services.AddScoped<IRabbitMQProducer, RabbitMQProducer>();
-builder.Services.AddScoped<RabbitMQConsumer, RabbitMQConsumer>();
+builder.Services.AddScoped<IRabbitMQConsumer, RabbitMQConsumer>();
 
+builder.Services.AddScoped<IEmailSenderService, EmailSenderManager>();
 
 var logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)

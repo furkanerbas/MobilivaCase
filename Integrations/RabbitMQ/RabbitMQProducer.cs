@@ -26,21 +26,21 @@ namespace Integrations.RabbitMQ
             {
                 channel.QueueDeclare
                 (
-                    queue: "bilgilendirme-mesajlari",
+                    queue: "bilgilendirme",
                     durable: false,
                     exclusive: false,
                     autoDelete: false,
                     arguments: null
                 );
-                string strJson = JsonConvert.SerializeObject(users);
-                byte[] bytMesajIcerigi = Encoding.UTF8.GetBytes(strJson);
+                var strJson = JsonConvert.SerializeObject(users);
+                var body = Encoding.UTF8.GetBytes(strJson);
 
                 channel.BasicPublish
                 (
                     exchange: "",
-                    routingKey: "bilgilendirme-mesajlari",
+                    routingKey: "bilgilendirme",
                     basicProperties: null,
-                    body: bytMesajIcerigi
+                    body: body
                 );
             }
         }

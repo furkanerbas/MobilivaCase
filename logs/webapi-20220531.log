@@ -1,0 +1,473 @@
+2022-05-31 01:30:41.616 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 01:30:41.878 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 01:30:41.898 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 01:30:41.899 +03:00 [INF] Hosting environment: Development
+2022-05-31 01:30:41.899 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 01:30:43.501 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 01:30:44.745 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 1252.7824ms
+2022-05-31 01:30:44.806 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 01:30:44.834 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 27.6292ms
+2022-05-31 01:30:45.656 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 01:30:45.997 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 342.6971ms
+2022-05-31 01:31:48.981 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/send-mail?Contacts=furkan52250%40gmail.com&CC=furkanerbass%40hotmail.com&Subject=deneme&Body=deneme - -
+2022-05-31 01:31:49.010 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-31 01:31:49.165 +03:00 [INF] Route matched with {action = "MailQue", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MailQue(Integrations.EmailService.EmailMessageModel) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 01:31:49.212 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.MailQue (WebAPI) in 26.4734ms
+2022-05-31 01:31:49.218 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-31 01:31:49.258 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Integrations.EmailService.IEmailSenderService' while attempting to activate 'WebAPI.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-31 01:31:49.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/send-mail?Contacts=furkan52250%40gmail.com&CC=furkanerbass%40hotmail.com&Subject=deneme&Body=deneme - - - 500 - text/plain;+charset=utf-8 719.3262ms
+2022-05-31 01:32:20.729 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 01:32:20.800 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 01:32:20.809 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 01:32:20.809 +03:00 [INF] Hosting environment: Development
+2022-05-31 01:32:20.809 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 01:32:22.752 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 01:32:23.387 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 644.8081ms
+2022-05-31 01:32:23.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 01:32:23.733 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 15.5416ms
+2022-05-31 01:32:25.249 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 01:32:25.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 282.8283ms
+2022-05-31 01:34:45.290 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/send-mail?Contacts=furkan52250%40gmail.com&CC=furkanerbass%40hotmail.com&Subject=deneme&Body=denneme - 0
+2022-05-31 01:34:45.326 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-31 01:34:45.492 +03:00 [INF] Route matched with {action = "MailQue", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MailQue(Integrations.EmailService.EmailMessageModel) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 01:34:45.558 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.MailQue (WebAPI) in 27.6611ms
+2022-05-31 01:34:45.570 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-31 01:34:45.601 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Integrations.EmailService.IEmailSenderService' while attempting to activate 'WebAPI.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-31 01:34:45.805 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7083/send-mail?Contacts=furkan52250%40gmail.com&CC=furkanerbass%40hotmail.com&Subject=deneme&Body=denneme - 0 - 500 - text/plain;+charset=utf-8 514.9417ms
+2022-05-31 01:35:17.437 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/send-mail?Contacts=furkan52250%40gmail.com&CC=furkanerbass%40hotmail.com&Subject=deneme&Body=denneme - 0
+2022-05-31 01:35:17.437 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-31 01:35:17.438 +03:00 [INF] Route matched with {action = "MailQue", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MailQue(Integrations.EmailService.EmailMessageModel) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 01:35:17.439 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.MailQue (WebAPI) in 0.853ms
+2022-05-31 01:35:17.440 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-31 01:35:17.441 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Integrations.EmailService.IEmailSenderService' while attempting to activate 'WebAPI.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-31 01:35:17.443 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7083/send-mail?Contacts=furkan52250%40gmail.com&CC=furkanerbass%40hotmail.com&Subject=deneme&Body=denneme - 0 - 500 - text/plain;+charset=utf-8 6.5053ms
+2022-05-31 01:36:30.865 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 01:36:30.935 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 01:36:30.945 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 01:36:30.946 +03:00 [INF] Hosting environment: Development
+2022-05-31 01:36:30.947 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 01:36:32.183 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 01:36:32.866 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 691.7321ms
+2022-05-31 01:36:32.917 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 01:36:32.939 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 21.8310ms
+2022-05-31 01:36:33.408 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 01:36:33.734 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 325.5438ms
+2022-05-31 01:36:58.904 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/send-mail?Contacts=furkan52250%40mail.com&CC=furkanerbass%40hotmail.com&Subject=sadds&Body=asdsa - 0
+2022-05-31 01:36:58.920 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-31 01:36:58.996 +03:00 [INF] Route matched with {action = "MailQue", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MailQue(Integrations.EmailService.EmailMessageModel) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 01:36:59.013 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.MailQue (WebAPI) in 8.5513ms
+2022-05-31 01:36:59.016 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-31 01:36:59.023 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Integrations.EmailService.IEmailSenderService' while attempting to activate 'WebAPI.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-31 01:36:59.078 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7083/send-mail?Contacts=furkan52250%40mail.com&CC=furkanerbass%40hotmail.com&Subject=sadds&Body=asdsa - 0 - 500 - text/plain;+charset=utf-8 174.0383ms
+2022-05-31 01:39:08.979 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 01:39:09.073 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 01:39:09.082 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 01:39:09.083 +03:00 [INF] Hosting environment: Development
+2022-05-31 01:39:09.083 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 01:39:10.202 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 01:39:10.930 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 760.1557ms
+2022-05-31 01:39:11.014 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 01:39:11.021 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 6.5119ms
+2022-05-31 01:39:11.519 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 01:39:11.867 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 347.6186ms
+2022-05-31 01:39:43.720 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/send-mail?Contacts=furkan52250%40gmail.com&CC=furkanerbass%40hotmail.com&Subject=deneme&Body=deneme - 0
+2022-05-31 01:39:43.744 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-31 01:39:43.865 +03:00 [INF] Route matched with {action = "MailQue", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MailQue(Integrations.EmailService.EmailMessageModel) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 01:41:28.504 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-05-31 01:41:28.548 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.MailQue (WebAPI) in 104645.3515ms
+2022-05-31 01:41:28.551 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.MailQue (WebAPI)'
+2022-05-31 01:41:28.558 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7083/send-mail?Contacts=furkan52250%40gmail.com&CC=furkanerbass%40hotmail.com&Subject=deneme&Body=deneme - 0 - 200 0 - 104837.3127ms
+2022-05-31 01:48:47.782 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 01:48:47.872 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 01:48:47.887 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 01:48:47.887 +03:00 [INF] Hosting environment: Development
+2022-05-31 01:48:47.887 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 01:48:49.085 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 01:48:49.961 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 01:48:49.996 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 921.2722ms
+2022-05-31 01:48:50.012 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 42.5203ms
+2022-05-31 01:48:50.494 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 01:48:50.833 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 338.4702ms
+2022-05-31 01:49:56.892 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=furkan&CustomerEmail=furkan52250%40gmail.com&CustomerGSM=05554443322&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%202%2C%0A%20%20%22amount%22%3A%202%0A%0A%7D - 0
+2022-05-31 01:49:56.906 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 01:49:56.954 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 01:52:30.022 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 01:52:30.104 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 01:52:30.112 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 01:52:30.113 +03:00 [INF] Hosting environment: Development
+2022-05-31 01:52:30.113 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 01:52:31.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 01:52:32.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 1149.9174ms
+2022-05-31 01:52:33.329 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 01:52:33.344 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 15.2269ms
+2022-05-31 01:52:41.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 01:52:42.419 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 452.1575ms
+2022-05-31 01:53:24.031 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=asd&CustomerEmail=furkan52250%40gmail.com&CustomerGSM=05553332211&ProductId=1&UnitPrice=1&Amount=1 - 0
+2022-05-31 01:53:24.072 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 01:53:24.259 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 01:54:05.752 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 01:54:05.843 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 01:54:05.852 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 01:54:05.853 +03:00 [INF] Hosting environment: Development
+2022-05-31 01:54:05.853 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 01:54:07.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 01:54:08.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 1356.2950ms
+2022-05-31 01:54:08.571 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 01:54:08.584 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 12.3469ms
+2022-05-31 01:54:09.120 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 01:54:09.562 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 441.9278ms
+2022-05-31 01:55:37.736 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=as&CustomerEmail=as%40hotmail.com&CustomerGSM=05553332211&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%201%2C%0A%20%20%22amount%22%3A%201%0A%7D - 0
+2022-05-31 01:55:37.787 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 01:55:37.989 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 01:57:27.870 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2022-05-31 01:57:28.017 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.CreateOrder (WebAPI) in 109907.3859ms
+2022-05-31 01:57:28.024 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 01:57:28.027 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7083/create-order?CustomerName=as&CustomerEmail=as%40hotmail.com&CustomerGSM=05553332211&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%201%2C%0A%20%20%22amount%22%3A%201%0A%7D - 0 - 200 - application/json;+charset=utf-8 110290.3860ms
+2022-05-31 02:17:25.835 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 02:17:25.879 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 02:17:25.886 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 02:17:25.887 +03:00 [INF] Hosting environment: Development
+2022-05-31 02:17:25.887 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 02:17:28.836 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 02:17:29.950 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 1128.5699ms
+2022-05-31 02:17:29.954 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 02:17:29.985 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 31.5624ms
+2022-05-31 02:17:30.389 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 02:17:30.644 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 254.8324ms
+2022-05-31 02:18:17.248 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=asd&CustomerEmail=asd%40hotmail.com&CustomerGSM=05432223311&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%202%2C%0A%20%20%22amount%22%3A%202%0A%7D - 0
+2022-05-31 02:18:17.271 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 02:18:17.428 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 02:20:17.094 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 02:20:17.177 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 02:20:17.190 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 02:20:17.191 +03:00 [INF] Hosting environment: Development
+2022-05-31 02:20:17.191 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 02:20:20.654 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 02:20:21.746 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 02:20:21.758 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 1125.2145ms
+2022-05-31 02:20:21.758 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 10.7496ms
+2022-05-31 02:20:22.287 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 02:20:22.666 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 379.2052ms
+2022-05-31 02:21:19.052 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=asd&CustomerEmail=ads%40hotmail.com&CustomerGSM=05554443322&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%202%2C%0A%20%20%22amount%22%3A%202%0A%7D - 0
+2022-05-31 02:21:19.087 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 02:21:19.224 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 02:40:16.432 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 02:40:16.620 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 02:40:16.628 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 02:40:16.629 +03:00 [INF] Hosting environment: Development
+2022-05-31 02:40:16.629 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 02:40:18.039 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 02:40:19.013 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 1002.3505ms
+2022-05-31 02:40:19.197 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 02:40:19.205 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 7.9552ms
+2022-05-31 02:40:20.083 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 02:40:20.296 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 212.7770ms
+2022-05-31 02:40:43.673 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=sad&CustomerEmail=asd&CustomerGSM=as&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%201%2C%0A%20%20%22amount%22%3A%201%0A%7D - 0
+2022-05-31 02:40:43.717 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 02:40:43.937 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 03:14:58.833 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 03:14:59.235 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 03:14:59.352 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 03:14:59.353 +03:00 [INF] Hosting environment: Development
+2022-05-31 03:14:59.353 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 03:15:01.151 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 03:15:01.793 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 651.3492ms
+2022-05-31 03:15:01.884 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 03:15:01.904 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 20.1950ms
+2022-05-31 03:15:02.330 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 03:15:02.600 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 269.3996ms
+2022-05-31 03:15:32.315 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=asd&CustomerEmail=furkan52250%40gmail.com&CustomerGSM=ads&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%201%2C%0A%20%20%22amount%22%3A%201%0A%7D - 0
+2022-05-31 03:15:32.354 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 03:15:32.595 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 03:18:13.611 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 03:18:13.696 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 03:18:13.704 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 03:18:13.705 +03:00 [INF] Hosting environment: Development
+2022-05-31 03:18:13.705 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 03:18:14.821 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 03:18:15.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 600.9970ms
+2022-05-31 03:18:15.497 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 03:18:15.504 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 6.2083ms
+2022-05-31 03:18:15.956 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 03:18:16.237 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 280.1818ms
+2022-05-31 03:19:25.803 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=furkan&CustomerEmail=furkan52250%40gmail.com&CustomerGSM=05354446578&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%201%2C%0A%20%20%22amount%22%3A%201%0A%7D - 0
+2022-05-31 03:19:25.840 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 03:19:25.992 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 03:21:35.574 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 03:21:35.648 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 03:21:35.656 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 03:21:35.657 +03:00 [INF] Hosting environment: Development
+2022-05-31 03:21:35.657 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 03:21:39.053 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 03:21:40.292 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 1264.7251ms
+2022-05-31 03:21:40.462 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 03:21:40.492 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 29.7649ms
+2022-05-31 03:21:40.951 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 03:21:41.348 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 397.8148ms
+2022-05-31 03:22:09.630 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=FURKAN&CustomerEmail=furkan52250%40gmail.com&CustomerGSM=05344567687&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%201%2C%0A%20%20%22amount%22%3A%201%0A%7D - 0
+2022-05-31 03:22:09.704 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 03:22:09.861 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 03:24:15.976 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 03:24:16.072 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 03:24:16.084 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 03:24:16.084 +03:00 [INF] Hosting environment: Development
+2022-05-31 03:24:16.085 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 03:24:17.838 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 03:24:18.440 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 612.3450ms
+2022-05-31 03:24:18.552 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 03:24:18.558 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 6.0247ms
+2022-05-31 03:24:19.409 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 03:24:19.627 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 217.4366ms
+2022-05-31 03:24:53.702 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=furkan&CustomerEmail=furkan52250%40gmail.com&CustomerGSM=05433211223&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%201%2C%0A%20%20%22amount%22%3A%201%0A%7D - 0
+2022-05-31 03:24:53.737 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 03:24:53.857 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 03:28:42.525 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 03:28:42.602 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 03:28:42.620 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 03:28:42.621 +03:00 [INF] Hosting environment: Development
+2022-05-31 03:28:42.621 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 03:28:43.689 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 03:28:46.766 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 3083.4347ms
+2022-05-31 03:28:48.836 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 03:28:48.866 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 29.5152ms
+2022-05-31 03:28:49.625 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 03:28:50.068 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 442.7564ms
+2022-05-31 03:29:40.733 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=dgd&CustomerEmail=furkan52250%40gmail.com&CustomerGSM=05321254789&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%202%2C%0A%20%20%22amount%22%3A%202%0A%7D - 0
+2022-05-31 03:29:40.781 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 03:29:40.998 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 03:34:44.519 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 03:34:44.625 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 03:34:44.635 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 03:34:44.636 +03:00 [INF] Hosting environment: Development
+2022-05-31 03:34:44.637 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 03:34:46.008 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 03:34:46.852 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 854.0723ms
+2022-05-31 03:34:46.894 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 03:34:46.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 39.2544ms
+2022-05-31 03:34:47.409 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 03:34:47.716 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 306.9721ms
+2022-05-31 03:35:13.681 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=Furkan&CustomerEmail=furkan52250%40gmail.com&CustomerGSM=05433456789&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%202%2C%0A%20%20%22amount%22%3A%202%0A%7D - 0
+2022-05-31 03:35:13.730 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 03:35:13.985 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 03:44:21.660 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 03:44:21.769 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 03:44:21.783 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 03:44:21.784 +03:00 [INF] Hosting environment: Development
+2022-05-31 03:44:21.784 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 03:44:22.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 03:44:23.741 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 967.7468ms
+2022-05-31 03:44:23.794 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 03:44:23.829 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 35.0384ms
+2022-05-31 03:44:24.265 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 03:44:24.666 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 401.7207ms
+2022-05-31 03:44:58.296 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=furkan&CustomerEmail=furkan52250%40gmail.com&CustomerGSM=05556666778&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%201%2C%0A%20%20%22amount%22%3A%201%0A%7D - 0
+2022-05-31 03:44:58.349 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 03:44:58.502 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 03:50:02.593 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 03:50:02.631 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 03:50:02.637 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 03:50:02.637 +03:00 [INF] Hosting environment: Development
+2022-05-31 03:50:02.637 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 03:50:03.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 03:50:04.385 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 545.7489ms
+2022-05-31 03:50:04.419 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 03:50:04.428 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 7.9096ms
+2022-05-31 03:50:04.920 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 03:50:05.218 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 297.7379ms
+2022-05-31 03:50:29.247 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=asf&CustomerEmail=afas&CustomerGSM=11111111111&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%201%2C%0A%20%20%22amount%22%3A%201%0A%7D - 0
+2022-05-31 03:50:29.276 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 03:50:29.489 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 03:51:36.307 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 03:51:36.392 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 03:51:36.401 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 03:51:36.402 +03:00 [INF] Hosting environment: Development
+2022-05-31 03:51:36.402 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 03:51:37.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 03:51:38.164 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 733.3478ms
+2022-05-31 03:51:38.207 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 03:51:38.229 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 21.8488ms
+2022-05-31 03:51:38.833 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 03:51:39.169 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 336.5306ms
+2022-05-31 03:52:01.838 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7083/create-order?CustomerName=furkan&CustomerEmail=furkan52250%40gmail.com&CustomerGSM=05379154074&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%201%2C%0A%20%20%22amount%22%3A%201%0A%7D - 0
+2022-05-31 03:52:01.857 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 03:52:01.985 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Entities.Dtos.CreateOrderRequestDto) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 03:52:13.833 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2022-05-31 03:52:13.964 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.CreateOrder (WebAPI) in 11862.603ms
+2022-05-31 03:52:13.971 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.CreateOrder (WebAPI)'
+2022-05-31 03:52:13.974 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7083/create-order?CustomerName=furkan&CustomerEmail=furkan52250%40gmail.com&CustomerGSM=05379154074&ProductId=1&UnitPrice=1&Amount=1&ProductDetails=%7B%0A%20%20%22productId%22%3A%201%2C%0A%20%20%22unitPrice%22%3A%201%2C%0A%20%20%22amount%22%3A%201%0A%7D - 0 - 200 - application/json;+charset=utf-8 12135.6670ms
+2022-05-31 04:06:44.896 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 04:06:44.962 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 04:06:44.967 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 04:06:44.968 +03:00 [INF] Hosting environment: Development
+2022-05-31 04:06:44.968 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 04:06:46.106 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 04:06:46.558 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 455.9732ms
+2022-05-31 04:06:46.608 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 04:06:46.614 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 5.8924ms
+2022-05-31 04:06:47.023 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 04:06:47.258 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 234.7361ms
+2022-05-31 04:06:56.872 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/get-products - -
+2022-05-31 04:06:56.896 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.GetProducts (WebAPI)'
+2022-05-31 04:06:57.006 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.String) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 04:07:59.208 +03:00 [INF] Ürünler getirildi
+2022-05-31 04:08:25.250 +03:00 [INF] Executing OkObjectResult, writing value of type 'Core.Utilities.Results.ApiResponse`1[[System.Collections.Generic.List`1[[Entities.Concrete.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-05-31 04:08:25.536 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.GetProducts (WebAPI) in 88489.5895ms
+2022-05-31 04:08:25.541 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.GetProducts (WebAPI)'
+2022-05-31 04:08:25.544 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/get-products - - - 200 - application/json;+charset=utf-8 88670.9545ms
+2022-05-31 04:13:08.136 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 04:13:08.235 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 04:13:08.264 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 04:13:08.265 +03:00 [INF] Hosting environment: Development
+2022-05-31 04:13:08.265 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 04:13:09.558 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 04:13:10.274 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 725.1878ms
+2022-05-31 04:13:10.386 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 04:13:10.406 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 20.2893ms
+2022-05-31 04:13:10.972 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 04:13:11.380 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 407.3278ms
+2022-05-31 04:27:36.433 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 04:27:36.551 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 04:27:36.560 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 04:27:36.560 +03:00 [INF] Hosting environment: Development
+2022-05-31 04:27:36.560 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 04:27:37.617 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 04:27:38.427 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 819.8142ms
+2022-05-31 04:27:38.470 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 04:27:38.488 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 18.4556ms
+2022-05-31 04:27:39.025 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 04:27:39.292 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 267.9080ms
+2022-05-31 04:27:50.003 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/get-products - -
+2022-05-31 04:27:50.029 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.GetProducts (WebAPI)'
+2022-05-31 04:27:50.194 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.String) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 04:27:59.900 +03:00 [INF] Ürünler  getirildi
+2022-05-31 04:27:59.911 +03:00 [INF] Executing OkObjectResult, writing value of type 'Core.Utilities.Results.ApiResponse`1[[System.Collections.Generic.List`1[[Entities.Concrete.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-05-31 04:27:59.938 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.GetProducts (WebAPI) in 9731.6827ms
+2022-05-31 04:27:59.939 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.GetProducts (WebAPI)'
+2022-05-31 04:27:59.940 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/get-products - - - 200 - application/json;+charset=utf-8 9937.7827ms
+2022-05-31 04:28:34.172 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 04:28:34.242 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 04:28:34.251 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 04:28:34.252 +03:00 [INF] Hosting environment: Development
+2022-05-31 04:28:34.252 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 04:28:35.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 04:28:36.050 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 765.0829ms
+2022-05-31 04:28:36.092 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 04:28:36.099 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 6.2587ms
+2022-05-31 04:28:36.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 04:28:36.967 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 287.0014ms
+2022-05-31 04:28:51.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/get-products?categoryName=deneme - -
+2022-05-31 04:28:51.414 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.GetProducts (WebAPI)'
+2022-05-31 04:28:51.548 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.String) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 04:28:57.363 +03:00 [INF] Ürünler  getirildi
+2022-05-31 04:28:57.406 +03:00 [INF] Executing OkObjectResult, writing value of type 'Core.Utilities.Results.ApiResponse`1[[System.Collections.Generic.List`1[[Entities.Concrete.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-05-31 04:28:57.522 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.GetProducts (WebAPI) in 5916.7427ms
+2022-05-31 04:28:57.527 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.GetProducts (WebAPI)'
+2022-05-31 04:28:57.529 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/get-products?categoryName=deneme - - - 200 - application/json;+charset=utf-8 6149.8653ms
+2022-05-31 04:35:02.712 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 04:35:02.833 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 04:35:02.840 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 04:35:02.841 +03:00 [INF] Hosting environment: Development
+2022-05-31 04:35:02.841 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 04:35:04.311 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 04:35:04.937 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 638.5021ms
+2022-05-31 04:35:05.093 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 04:35:05.099 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 5.7020ms
+2022-05-31 04:35:05.796 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 04:35:06.023 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 227.4613ms
+2022-05-31 04:35:23.011 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/get-products - -
+2022-05-31 04:35:23.038 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.GetProducts (WebAPI)'
+2022-05-31 04:35:23.166 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.String) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 04:35:27.823 +03:00 [INF] Ürünler  getirildi
+2022-05-31 04:35:27.848 +03:00 [INF] Executing OkObjectResult, writing value of type 'Core.Utilities.Results.ApiResponse`1[[System.Collections.Generic.List`1[[Entities.Concrete.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-05-31 04:35:27.901 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.GetProducts (WebAPI) in 4711.1865ms
+2022-05-31 04:35:27.905 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.GetProducts (WebAPI)'
+2022-05-31 04:35:27.907 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/get-products - - - 200 - application/json;+charset=utf-8 4896.9167ms
+2022-05-31 04:35:35.582 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/get-products - -
+2022-05-31 04:35:35.591 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.GetProducts (WebAPI)'
+2022-05-31 04:35:35.599 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.String) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 04:39:05.458 +03:00 [INF] Now listening on: https://localhost:7083
+2022-05-31 04:39:05.531 +03:00 [INF] Now listening on: http://localhost:5083
+2022-05-31 04:39:05.540 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-31 04:39:05.541 +03:00 [INF] Hosting environment: Development
+2022-05-31 04:39:05.541 +03:00 [INF] Content root path: C:\Users\FURKAN\Documents\GitHub\MobilivaCase\WebAPI\
+2022-05-31 04:39:06.748 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-05-31 04:39:07.408 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 670.6374ms
+2022-05-31 04:39:07.432 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-05-31 04:39:07.438 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11940 application/javascript;+charset=utf-8 6.5319ms
+2022-05-31 04:39:08.020 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-05-31 04:39:08.278 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 257.6171ms
+2022-05-31 04:39:20.356 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/get-products - -
+2022-05-31 04:39:20.393 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.GetProducts (WebAPI)'
+2022-05-31 04:39:20.466 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.String) on controller WebAPI.Controllers.HomeController (WebAPI).
+2022-05-31 04:39:23.921 +03:00 [INF] Ürünler  getirildi
+2022-05-31 04:39:23.937 +03:00 [INF] Executing OkObjectResult, writing value of type 'Core.Utilities.Results.ApiResponse`1[[System.Collections.Generic.List`1[[Entities.Concrete.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-05-31 04:39:23.969 +03:00 [INF] Executed action WebAPI.Controllers.HomeController.GetProducts (WebAPI) in 3488.2194ms
+2022-05-31 04:39:23.971 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.HomeController.GetProducts (WebAPI)'
+2022-05-31 04:39:23.972 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7083/get-products - - - 200 - application/json;+charset=utf-8 3616.6769ms
+2022-05-31 04:39:27.359 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7083/get-products - -
+2022-05-31 04:39:27.361 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.HomeController.GetProducts (WebAPI)'
+2022-05-31 04:39:27.367 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.String) on controller WebAPI.Controllers.HomeController (WebAPI).

@@ -6,6 +6,7 @@ using Entities.Concrete;
 using Entities.Dtos;
 using Integrations.RabbitMQ;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,10 +23,11 @@ namespace Business.Concrete
         private IOrderRepository _orderRepository;
         private IMemoryCache _memoryCache;
         private ICacheManager _cacheManager;
+        private ILogger<ProductManager> _logger;
 
 
         public ProductManager(IProductRepository productRepository, ICacheManager cacheManager,
-            IMemoryCache memoryCache, IOrderRepository orderRepository,
+            IMemoryCache memoryCache, IOrderRepository orderRepository, ILogger<ProductManager> logger,
             IOrderDetailRepository orderDetailRepository)
         {
             _productRepository = productRepository;
@@ -33,6 +35,7 @@ namespace Business.Concrete
             _memoryCache = memoryCache;
             _orderRepository = orderRepository;
             _orderDetailRepository = orderDetailRepository;
+            _logger = logger;
         }
         public void Add(Product product)
         {
@@ -52,17 +55,19 @@ namespace Business.Concrete
         public IApiResponse<List<Product?>> GetAll(Expression<Func<Product, bool>>? filter = null)
         {
             const string key = "personeller";
-            List<Product> products = _productRepository.GetAll(filter);
+            List<Product> products = _productRepository.GetAll(filter).ToList();
             if (_memoryCache.TryGetValue(key, out object list))
             {
                 products = (List<Product>)list;
+                _logger.LogInformation("Ürünler cacheden getirildi");
                 return new ApiResponse<List<Product?>>("Ürünler getirildi", "200", products.ToList());
+
             }
             products = _productRepository.GetAll(filter);
             _cacheManager.Set(key, products, 50);
+            _logger.LogInformation("Ürünler  getirildi");
             return new ApiResponse<List<Product?>>("Ürünler getirildi", "200", products.ToList());
         }
-
         public void Update(Product product)
         {
             this._productRepository.Update(product);

@@ -8,46 +8,56 @@ using System.Threading.Tasks;
 
 namespace Integrations.RabbitMQ
 {
-    public class RabbitMQConsumer
+    public class RabbitMQConsumer : IRabbitMQConsumer
     {
-        public void Get()
+        public bool Get()
         {
-            string list = string.Empty;
-            var cfBaglantiBilgileri = new ConnectionFactory()
+            try
             {
-                HostName = "localhost",
-                Port = 5672,
-                UserName = "guest",
-                Password = "guest"
-            };
-
-            using (IConnection cfBaglanti = cfBaglantiBilgileri.CreateConnection())
-            using (IModel chnKanal = cfBaglanti.CreateModel())
-            {
-                chnKanal.QueueDeclare
-                (
-                    queue: "bilgilendirme-mesajlari",
-                    durable: false,
-                    exclusive: false,
-                    autoDelete: false,
-                    arguments: null
-                );
-
-                var ebcKuyruklar = new EventingBasicConsumer(chnKanal);
-
-                ebcKuyruklar.Received += (model, mq) =>
+                var cfBaglantiBilgileri = new ConnectionFactory()
                 {
-                    var MesajGovdesi = mq.Body;
-                    list = Encoding.UTF8.GetString(MesajGovdesi.ToArray());
+                    HostName = "localhost",
+                    Port = 5672,
+                    UserName = "guest",
+                    Password = "guest"
                 };
 
-                chnKanal.BasicConsume
-                (
-                    queue: "bilgilendirme-mesajlari",
-                    autoAck: false, // true ise mesaj otomatik olarak kuyruktan silinir
-                    consumer: ebcKuyruklar
-                );
+                using (IConnection cfBaglanti = cfBaglantiBilgileri.CreateConnection())
+                using (IModel chnKanal = cfBaglanti.CreateModel())
+                {
+                    chnKanal.QueueDeclare
+                    (
+                        queue: "bilgilendirme",
+                        durable: false,
+                        exclusive: false,
+                        autoDelete: false,
+                        arguments: null
+                    );
+
+                    var consumer = new EventingBasicConsumer(chnKanal);
+
+                    consumer.Received += (model, ea) =>
+                    {
+                        var body = ea.Body.ToArray();
+                        var jsonString = Encoding.UTF8.GetString(body);
+                    };
+
+                    chnKanal.BasicConsume
+                    (
+                        queue: "bilgilendirme",
+                        autoAck: false, // true ise mesaj otomatik olarak kuyruktan silinir
+                        consumer: consumer
+                    );
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception("Kuyrukta bir hata oluştu"+ex.Message);
+            }
+            
+
             }
         }
     }
-}
